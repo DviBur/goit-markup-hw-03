@@ -1,0 +1,291 @@
+:root {
+   /* background: #FFFFFF;
+   background: #212121;
+   background: #FFFFFF;
+   background: #757575;
+   background: #2196F3;
+   background: #EEEEEE;
+   background: #000000;
+   background: #F5F4FA;
+   background: #FFFFFF99;
+   background: #2F303A;
+   background: #ECECEC;
+   background: #188CE8;
+    */
+   --main-font: roboto, sans-serif;
+   --secondary-font: raleway, sans-serif;
+   --primary-text-color: #212121;
+   --secondary-text-color: #757575;
+   --title-text-color: #212121;
+   --secondary-background-color: #2F303A;
+   --accent-color: #2196Fb;
+   --primary-white-color: #F5F4FA;
+   --background-main-white: #ffffff;
+   --address-color: rgba(255, 255, 255, 0.6);
+   --hover-button-color: #188CE8;
+   --secondary-button-color: #F5F4FA;
+
+}
+
+/* Header */
+body {
+   font-family: var(--main-font);
+   color: var(--primary-text-color);
+   background-color: #ffffff;
+   letter-spacing: 0.03em; ;
+}
+
+.site-nav {
+   list-style-type: none;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   color: var(--title-text-color);
+
+}
+
+a.page-header {
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+li {
+   list-style: none;
+
+}
+
+a {
+   color: var(--primary-text-color);
+   text-decoration: none;
+}
+
+/* Button style */
+.button {
+   padding-bottom: 20px;
+   display: inline-block;
+   border-radius: 4px;
+   padding: 10px 32px;
+   font-family: Roboto;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;
+   letter-spacing: 0.06em;
+   background: var(--accent-color);
+   color: var(--primary-white-color);
+   cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+   background: var(--hover-button-color);
+   color: var(--primary-white-color);
+
+}
+
+.button.current {
+   background-color: var(--accent-color);
+}
+
+.filter-button {
+   display: inline-block;
+   border: 0px;
+   border-radius: 4px;
+   padding: 6px 22px;
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   letter-spacing: 0.03em;
+   background: var(--primary-white-color);
+   color: var(--primary-text-color);
+   cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+   background: var(--hover-button-color);
+   color: var(--primary-white-color);
+}
+
+.filter-button.current {
+   background-color: var(--accent-color);
+}
+
+/* Logo style */
+
+.logo {
+   text-decoration: none;
+   font-family: var(--secondary-font);
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 1.14;
+   letter-spacing: 0.5px;
+}
+
+.logo-element {
+   color: var(--accent-color);
+}
+
+.list {
+   font-weight: bold;
+   color: var(--primary-text-color);
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+
+.list:hover,
+.list:focus {
+   color: #2196Fb;
+}
+
+
+.hero-title {
+   padding-bottom: 20px;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--background-main-white);
+   background-color: var(--secondary-background-color);
+ 
+}
+ .section {
+    letter-spacing:  0.03em ;
+
+ }
+.section-title {
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+
+.title {
+   color: var(--secondary-text-color);
+   font-size: 14px;
+   line-height: 1.7;
+}
+
+.service {
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 2;
+   text-align: center;
+}
+
+.link {
+   color: var(--title-text-color) ;
+   letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+   color: var(--accent-color);
+}
+
+.link.current {
+   color: var(--accent-color);
+}
+
+
+.link-contact a {
+   color: var(--secondary-text-color);
+   font-weight: bold;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+   color: var(--accent-color);
+}
+
+.link-contact.current {
+   color: var(--accent-color);
+}
+
+.team {
+   background-color: var(--primary-white-color);
+   letter-spacing: 0.03em;
+}
+
+.team-title {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 2.6;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.name-title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.2;
+   text-align: center;
+}
+
+
+.team-job-position {
+   color: var(--secondary-text-color);
+   font-size: 16px;
+   line-height: 1.2;
+   text-align: center;
+}
+
+/* Footer */
+.address-place {
+   color: var(--background-main-white);
+   font-size: 14px;
+   line-height: 1.7;
+   font-style: normal;
+}
+
+.address {
+   font-size: 14px;
+   line-height: 1.7;
+   color: var(--address-color);
+   text-decoration: none;
+   font-style: normal;
+}
+.logo-footer {
+   color: var(--primary-white-color);
+}
+footer {
+   color: var(--primary-white-color);
+   background-color: var(--secondary-background-color);
+   font-family: roboto;
+   letter-spacing:  0.03em;
+   font-style: normal;
+}
+
+/* Portfolio style */
+.portfolio-title {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em ;
+}
+
+.subtitle {
+   font-size: 16px;
+   line-height: 1.8;
+   color: var(--secondary-text-color);
+   letter-spacing:  0.03em;
+}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
