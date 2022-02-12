@@ -1,9 +1,3 @@
-/*  Основной фон       #FFFFFF 
-    Вспомагателный фон #F5F4FA 
-    Основной текст     #757575 
-    Текст заголовков   #212121
-    Акцент             #2196F3
-    Цвет Лого          #000000
 
 */
 *,
@@ -72,7 +66,7 @@ body {
     list-style-type: none;
 }
 .pages {
-    font-family: Roboto;
+    font-family: var(--main-font);
 
     background-color: var(--primary-bg-color);
 }
@@ -190,7 +184,7 @@ body {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--primary-text-color);
+    background-color: var(--footer-bg-color);
 }
 
 .hero-content {
