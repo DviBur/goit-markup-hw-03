@@ -381,6 +381,7 @@ body {
 .filter-item {
    padding: 8px;
    border-bottom: var(--primary-text-color);
+   cursor: pointer;
 }
 
 /* project*/
@@ -394,6 +395,7 @@ body {
     outline: 1px solid #eeeeee;
     margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
+   
 }
 
 .project-name {
