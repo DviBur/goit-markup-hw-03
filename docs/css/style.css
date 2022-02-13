@@ -361,14 +361,17 @@ body {
    letter-spacing: 0.03em;
    background-color: var(--secondary-bg-color);
    color: var(--title-text-color);
+   cursor: pointer;
 }
 .filter-button:focus,
 .filter-button:hover {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
+    cursor: pointer;
 }
 .filter-button:not(:last-child) {
     margin-right: 8px;
+  
 }
 .filter-list {
    text-align: center;
