@@ -1,4 +1,15 @@
-
+  /* background: #FFFFFF;
+   background: #212121;
+   background: #FFFFFF;
+   background: #757575;
+   background: #2196F3;
+   background: #EEEEEE;
+   background: #000000;
+   background: #F5F4FA;
+   background: #FFFFFF99;
+   background: #2F303A;
+   background: #ECECEC;
+   background: #188CE8;
 */
 *,
 *::before,
@@ -106,16 +117,16 @@ body {
     align-items: center;
 }
 
-.naw-list {
-    display: flex;
-    margin-left: 93px;
+.nav-list {
+   display: flex;
+   margin-left: 93px;
 }
 
-.naw-item:not(:last-child) {
+.nav-item:not(:last-child) {
     margin-right: 50px;
 }
 
-.naw-link {
+.nav-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -127,17 +138,18 @@ body {
     color: var(--title-text-color);
 }
 
-.naw-link:hover,
-.naw-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--accent-color);
 }
-.naw-link.current {
+.nav-link.current {
     color: var(--accent-color);
 }
 
 .info-list {
-    display: flex;
+   display: flex;
 }
+
 .info-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -344,17 +356,17 @@ body {
     padding-bottom: 50px;
 }
 .filter-button {
-    display: inline-block;
-    border: 0px;
-    border-radius: 4px;
-    padding: 6px 22px;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    background-color: var(--secondary-bg-color);
-    color: var(--title-text-color);
+   display: inline-block;
+   border: 0px;
+   border-radius: 4px;
+   padding: 6px 22px;
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   letter-spacing: 0.03em;
+   background-color: var(--secondary-bg-color);
+   color: var(--title-text-color);
 }
 .filter-button:focus,
 .filter-button:hover {
@@ -363,6 +375,17 @@ body {
 }
 .filter-button:not(:last-child) {
     margin-right: 8px;
+}
+.filter-list {
+   text-align: center;
+   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.filter-item {
+   padding: 8px;
 }
 
 /* project*/
