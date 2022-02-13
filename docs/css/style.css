@@ -1,15 +1,4 @@
-  /* background: #FFFFFF;
-   background: #212121;
-   background: #FFFFFF;
-   background: #757575;
-   background: #2196F3;
-   background: #EEEEEE;
-   background: #000000;
-   background: #F5F4FA;
-   background: #FFFFFF99;
-   background: #2F303A;
-   background: #ECECEC;
-   background: #188CE8;
+
 */
 *,
 *::before,
@@ -43,7 +32,12 @@
     padding-left: 15px;
     padding-right: 15px;
     /* outline: 2px solid red; */
+    
 }
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+ }
 h1,
 h2,
 h3,
@@ -386,6 +380,7 @@ body {
 }
 .filter-item {
    padding: 8px;
+   border-bottom: var(--primary-text-color);
 }
 
 /* project*/
