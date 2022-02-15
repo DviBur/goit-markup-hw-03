@@ -48,6 +48,11 @@ body {
     font-family: var(--main-font);
     color: var(--primary-text-color);
 }
+.conteiner {
+    width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
 
 .visually-hidden {
     position: absolute;
@@ -361,8 +366,6 @@ body {
 
 /* filter */
 .main-project {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .filter {
@@ -373,6 +376,7 @@ body {
     display: inline-block;
     border: 0px;
     border-radius: 4px;
+    margin-top: 94px;
     margin-bottom: 50px;
     padding: 6px 22px;
     font-family: Roboto;
@@ -398,6 +402,8 @@ body {
 }
 
 .filter-list {
+    margin: 0px;
+    padding: 0px;
     text-align: center;
     list-style: none;
     display: flex;
