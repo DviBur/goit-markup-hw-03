@@ -423,6 +423,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
+    margin-bottom: 94px;
 }
 
 .project-item {
