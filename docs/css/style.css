@@ -379,7 +379,6 @@ body {
     display: inline-block;
     border: 0px;
     border-radius: 4px;
-    margin-bottom: 50px;
     padding: 6px 22px;
     font-family: Roboto;
     font-weight: 500;
@@ -411,6 +410,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-item {
