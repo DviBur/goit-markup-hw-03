@@ -48,6 +48,9 @@ body {
     font-family: var(--main-font);
     color: var(--primary-text-color);
 }
+.section {
+    padding-top: 94px;
+}
 .conteiner {
     width: 1200px;
     padding: 0 15px;
@@ -201,12 +204,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--footer-bg-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-content {
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -245,7 +248,7 @@ body {
 
 /* advantage */
 .advantage-list {
-    padding-top: 94px;
+
     display: flex;
     margin-left: -15px;
     margin-right: -15px;
@@ -275,10 +278,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.main-about {
-    padding-bottom: 94px;
-    padding-top: 94px;
-}
+
 
 .about-title {
     margin-bottom: 50px;
@@ -299,11 +299,10 @@ body {
 }
 
 /* team */
-.team .conteiner {
-    padding-top: 94px;
+ .team-section {
     padding-bottom: 94px;
-}
-
+    padding-top: 94px;
+ }
 .team {
     background-color: var(--secondary-bg-color);
 }
@@ -343,6 +342,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    margin-bottom: 10px;
 }
 
 .team-post {
@@ -367,7 +367,10 @@ body {
 /* filter */
 .main-project {
 }
-
+.filter-section {
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
 .filter {
     text-align: center;
 }
@@ -376,7 +379,6 @@ body {
     display: inline-block;
     border: 0px;
     border-radius: 4px;
-    margin-top: 94px;
     margin-bottom: 50px;
     padding: 6px 22px;
     font-family: Roboto;
@@ -412,7 +414,7 @@ body {
 }
 
 .filter-item {
-    margin: 8px;
+    margin: 4px;
     border-bottom: var(--primary-text-color);
     cursor: pointer;
 }
@@ -443,7 +445,8 @@ body {
 }
 .project-box {
     display: inline-block;
-    margin: 20px 24px 20px 24px;
+    margin: 20px 24px;
+    width: calc(100% - 50px);
 }
 
 .project-type {
