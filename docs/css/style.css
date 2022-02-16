@@ -398,7 +398,7 @@ body {
 }
 
 .filter-button:not(:last-child) {
-    margin-right: 8px;
+    margin-right: 4px;
 
 }
 
@@ -425,7 +425,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    margin-bottom: 94px;
 }
 
 .project-item {
